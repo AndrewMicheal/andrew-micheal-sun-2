@@ -8,5 +8,4 @@ function getPriceWithDiscount() {
 
 function priceAfterDiscount($price) {
     $GLOBALS['priceNumber'] = ($price < 1000) ? $price * 0.1 : $price * 0.05;
-    return $GLOBALS['priceNumber'];
 }

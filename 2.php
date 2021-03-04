@@ -1,4 +1,5 @@
 <?php 
     require_once('prices_info.php');
-    echo priceAfterDiscount(8000);
+     priceAfterDiscount(2000);
+     echo getPriceWithDiscount();
 ?>
